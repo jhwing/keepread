@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/recommend_fragment_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	
+    <FrameLayout 
+		android:id="@+id/recommend_bg_layout"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_alignWithParentIfMissing="true"
+		android:layout_centerInParent="true" 
+        >
+        
+        <ImageView 
+		    android:id="@+id/cover_image"
+		    android:src="@drawable/black_white_antagonize"
+		    android:contentDescription="@string/desc"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:scaleType="fitXY"/>   
+		    
+        <ImageView
+            android:id="@+id/weather_background_blurred"
+		    android:contentDescription="@string/desc"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/black_white_antagonize" />
+    </FrameLayout>
+    
+    <org.jhw.keep.views.TouchDispatchView 
+        android:id="@+id/touch_dispatch_layout"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+        
+        <ListView 
+            android:id="@+id/drag_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true">
+            
+        </ListView>
+    </org.jhw.keep.views.TouchDispatchView>
+</RelativeLayout>

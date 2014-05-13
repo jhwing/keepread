@@ -1,0 +1,17 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<org.jhw.keep.app.views.RecyclingImageView
+	    android:id="@+id/cover_img"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:scaleType="fitXY"
+	    android:background="@color/read_bg">
+	</org.jhw.keep.app.views.RecyclingImageView> 
+	<TextView 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="纪洪文的新闻订阅"
+	    />
+</FrameLayout>

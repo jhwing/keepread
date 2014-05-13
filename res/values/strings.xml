@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_websearch">Web search</string>
+    <string name="app_name">Keep</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hello">create by jhw</string>
+    <string name="load">Keep</string>
+    <string name="add">add</string>
+    <string name="desc">desc</string>
+    
+
+    <!-- image cahce -->
+    <string name="no_network_connection_toast">No network connection found</string>
+    
+    <!-- navigtion -->
+    <string-array name="item_array">
+        <item>@string/recommend</item>
+        <item>@string/read_later</item>
+        <item>@string/reading_notes</item>
+    </string-array>
+    <string name="cover">Cover</string>
+    <string name="recommend">Recommend</string>
+    <string name="read_later">Read Later</string>
+    <string name="reading_notes">Reading Notes</string>
+    <string name="add_content">Add Content</string>
+    <string name="settings">settings</string>
+    <string name="feedback">Feedback</string>
+    <string name="share_me">share me</string>
+    <string name="help">help</string>
+    <string name="find">find</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+    <string name="logout">Logout</string>
+    <string name="about_app">About</string>
+    
+    <!-- test -->
+    <string name="test_content">Box宣布今年营收目标将翻倍，招股说明书可能在几周内公布</string>
+    <string name="lorem_ipsum">近半年围绕Box IPO的传闻一直不断，而Box似乎也很乐意为我们提供各种素材。自2013年年初，Box CEO Levie表示想在2014年上市以来，我们看到了Box的一系列造势行动</string>
+    <string name="time">time:10:20</string>
+</resources>

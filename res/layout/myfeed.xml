@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llCustomTabView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <org.jhw.keep.views.SlidingUpPanelView
+        android:id="@+id/slingup_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+		<com.handmark.pulltorefresh.library.PullToRefreshListView 
+		    android:id="@+id/myfeed_list"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:gravity="center"
+		    >
+		</com.handmark.pulltorefresh.library.PullToRefreshListView>
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical"
+		    >
+		    <!-- 
+		     -->
+	        <ImageView 
+			    android:id="@+id/guess_img"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:gravity="center|bottom"
+			    android:layout_gravity="center_horizontal"
+			    android:clickable="true"
+			    android:src="@drawable/ic_guess_btn_normal"/>
+	        <ListView 
+			    android:id="@+id/mychannel_list"
+				android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    >
+			</ListView>
+			
+		</LinearLayout>
+		
+	</org.jhw.keep.views.SlidingUpPanelView>
+</RelativeLayout>

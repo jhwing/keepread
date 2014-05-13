@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="textColor">#909090</color>
+    <color name="backgroundColor">#E8E8E0</color>
+    <color name="loadBackground">#4c9aec</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+	<!-- Drawer -->
+	<color name="drawer_background">#303030</color>
+	<color name="drawer_selected_background">#4491DF</color>
+	<color name="drawer_text">#ffffff</color>
+	<color name="drawer_divider">#333333</color>
+	<color name="read_bg">#909090</color>
+	<color name="item_selected">#93BF40</color>
+	<color name="unread_bg">#373737</color>
+	<color name="red">#FF0000</color>
+	<color name="btn_bg">#00E3E3</color>
+
+</resources>
